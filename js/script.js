@@ -15,6 +15,9 @@ var adjSqWeight = 0;       //Weight adjust for the inputed plate weight
 
 //Inputs
 
+var thickness = prompt("Enter the thickness of the steel plate in deciaml.");
+var length = prompt ("Enter the length of your plate in inches.");
+var width = prompt ("Enter the width of your plate in inches");
 
 //Outputs
 
