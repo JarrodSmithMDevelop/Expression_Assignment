@@ -22,9 +22,9 @@ var width = prompt ("Enter the width of your plate in inches");                 
 
 //Equations
 
-var adjSqWeight = weightSq * thickness;
-var sqFeet = length * width / 144;
-var total = adjSqWeight * sqFeet;
+var adjSqWeight = weightSq * thickness;         //The equated weight for the thickness
+var sqFeet = length * width / 144;              //The equating the sq Ft
+var total = adjSqWeight * sqFeet;               //The total weight for the plate
 
 
 //Outputs
